@@ -1,0 +1,6 @@
+.table-cell:attribute-caption {
+    -fx-font-weight: bold ;
+}
+.table-cell {
+    -fx-font-weight: normal ;
+}

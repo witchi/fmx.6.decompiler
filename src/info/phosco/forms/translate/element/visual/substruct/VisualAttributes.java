@@ -1,0 +1,27 @@
+package info.phosco.forms.translate.element.visual.substruct;
+
+import info.phosco.forms.translate.element.FormProperties;
+
+public enum VisualAttributes implements FormProperties {
+	VALID_FOREGROUND,
+	VALID_BACKGROUND,
+	VALID_LOGICAL_ATTRIBUTE,
+	VALID_FILL_PATTERN,
+	VALID_FONT_NAME,
+	VALID_FONT_SIZE,
+	VALID_FONT_STYLE,
+	VALID_FONT_WEIGHT,
+	VALID_CHARACTER_SPACING,
+	VALID_WHITE_ON_BLACK,
+	WHITE_ON_BLACK,
+	LOGICAL_ATTRIBUTE,
+	FOREGROUND,
+	BACKGROUND,
+	FILL_PATTERN,
+	FONT_NAME,
+	FONT_SIZE,
+	FONT_STYLE,
+	FONT_WEIGHT,
+	CHARACTER_SPACING
+
+}

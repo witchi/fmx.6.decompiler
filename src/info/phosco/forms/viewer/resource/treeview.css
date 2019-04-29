@@ -1,0 +1,39 @@
+.tree-cell:browser-folder {
+    -fx-font-weight: bold ;
+}
+
+.tree-cell {
+    -fx-font-weight: normal ;
+}
+
+.tree-cell:browser-folder-childless .tree-disclosure-node .arrow {
+	-fx-font-weight: bold;
+    -fx-shape: null;
+    -fx-background-color: null;
+    -fx-background-image: url("childless.png");
+    -fx-background-repeat:  no-repeat;
+}
+
+.tree-cell:browser-folder-childless:expanded .tree-disclosure-node .arrow {
+	-fx-font-weight: bold;
+    -fx-shape: null;
+    -fx-background-color: null;
+    -fx-background-image: url("childless.png");
+    -fx-background-repeat:  no-repeat;
+}
+
+.tree-cell .tree-disclosure-node .arrow {
+    -fx-shape: null;
+    -fx-padding: 5px 4px 4px 5px;
+    -fx-background-color: null;
+    -fx-background-repeat:  no-repeat;
+    -fx-background-image: url("plus.png");
+}
+.tree-cell:expanded .tree-disclosure-node .arrow {
+    -fx-shape: null;
+    -fx-background-color: null;
+    -fx-padding: 5px 4px 4px 5px;
+    -fx-background-repeat:  no-repeat;
+    -fx-background-image: url("minus.png");
+    -fx-rotate: 0;
+}
