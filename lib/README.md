@@ -36,3 +36,5 @@ imageio-tga-3.2.1.jar
 imageio-thumbsdb-3.2.1.jar
 
 imageio-tiff-3.2.1.jar
+
+jfxtras-window-8.0-r3.jar
