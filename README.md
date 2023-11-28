@@ -5,4 +5,4 @@ It is an old research project to rescue Forms.6 applications. It doesn't work wi
 
 You have to compile it with JDK 1.8.
 
-Start with src/info/phosco/forms/viewer/tabbed/Desktop.java
+Start with `info/phosco/forms/viewer/tabbed/Desktop.java` (graphical UI) or `info/phosco/forms/translate/OracleHacker.java` (command-line).
